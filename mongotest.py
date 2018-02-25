@@ -61,4 +61,4 @@ print "=========================================="
 zipscore(10002,15)
 print "\nTESTING BLOCK(123 Chambers) RESTAURANTS"
 print "=========================================="
-restaddr(123, "Chambers Street")
+restaddr(123, "Chambrs Street")
