@@ -1,10 +1,17 @@
 '''
 JUNGLERABBITS
 Eric Li, Kristin Lin
+-------------------------------------------------
 
-DATASET: Scottish Parliament Events
+DATASET: Scottish Parliament Events- 
+A database on Scottish Parliament events from 2015 to 2017, including date, 
+title, and sponsor.
+
 HYPERLINK: https://data.parliament.scot/api/events
-SUMMARY: Our json file is opened, parsed, and conveniently converted into a list of dictionaries. We ran the mongo function insert_many() with the list of dictionaries as the input to import our json data into our database.
+
+SUMMARY: Our json file is opened, parsed, and converted into a list of 
+dictionaries. We ran the mongo function insert_many() with the list 
+of dictionaries as the input to import our json data into our database.
 '''
 
 import pymongo, json, datetime
